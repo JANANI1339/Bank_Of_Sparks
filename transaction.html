@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style2.css">
+    <link rel = "stylesheet" href = "form.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="transact_header">
+       <h3>Transaction</h3> 
+    </header>
+    <main>
+        <form action = "transact.php" method = "POST" id = "transaction_form" class = "transaction_form">
+            <label for = "sender">enter sender_id:</label><br>
+            <input type = "text" name = "sender" id = "sender"><br>
+            <label for = "receiver"> enter receiver_id:</label><br>
+            <input type = "text" name = "receiver" id = "receiver"><br>
+            <label for = "amount">Enter Transaction Amount</label> <br>
+            <input type = "number" name = "amount" is = "amount"><br>
+            <input type = "submit" value= "make transaction"> 
+        </form>
+    </main>
+</body>
+</html>

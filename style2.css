@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+
+*{
+color: #44494b;
+font-family: Roboto Mono,sans-serif;
+}
+body {
+    background-color: rgb(210, 247, 210);
+}
+header 
+{
+    text-align:center;
+    background-color:rgb(210, 247, 210);
+    box-shadow: 2px 2px 5px #44494b;
+    
+    text-transform: capitalize;
+  
+}
+header > h1{
+    text-transform: uppercase;
+    font-family: Roboto Mono,sans-serif;
+}
+header > h3{
+    font-family: Crete Round;
+}
+#transact_header
+{
+    padding:30px;
+}
+main >pre 
+{
+    width: 50%;
+    margin:150px auto 100px;
+    text-align: center;
+    font-size:25px;
+    font-family: Crete Round;
+ 
+}
+.buttons
+{
+    
+    padding:20px;
+    margin: 30px;
+    background-color:rgb(210, 247, 210) ;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Roboto Mono,sans-serif;
+    width:250px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.buttons:hover{
+    box-shadow: 2px 2px 10px #44494b;
+    border:none;
+  
+}
+p{
+    margin: 50px auto;
+}
+
+ table 
+{
+    width: 50%;
+    box-shadow: 2px 2px 5px #44494b;
+    margin:15px auto;
+    height: 30px;
+    border-collapse: collapse;
+
+}
+td, th{
+    width:50%;
+    font-family: Roboto Mono;
+    padding:10px;
+   font-size: 15px;
+    text-align:center
+}
+#viewdetails
+{
+    padding: 10px;
+    font-family: Roboto Mono,sans-serif;
+    
+}
+#successmessage
+{
+    font-family: Roboto Mono, sans-serif;
+    margin: 50px auto;
+    font-size: 30px;
+    padding:10px;
+}
+#transpage
+{
+    margin:30px auto;
+}
